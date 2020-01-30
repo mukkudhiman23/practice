@@ -25,19 +25,23 @@
    
   }
  
-  #sec_main{
  
+.third_part{
   text-align: center;
-  
-
-  
+  margin-top: 20px;
+  background-color: solid black;
+  position: absolute;
+  height: 250px;
+}
+.first{
+  text-align: center;
 }
 
-
 .img_round{
-  border-radius: 50%;
-  width: 50%;
-  height: 90%;
+  border-radius: 60%;
+  width: 100%;
+  padding: 5px;;
+ 
 
 }
 

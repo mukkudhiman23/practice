@@ -1,0 +1,16 @@
+var str=prompt();
+var res="";
+console.log("original string:"+str);
+for(var i=0;i<str.length;i++){
+  var count=0;
+for(var j=i+1;j<str.length;j++){
+  if(str[i]==str[j]){
+    count++;
+  }
+  }
+   if(count==0){
+   res+=str[i];
+  }
+ 
+}
+console.log("unique character are:"+res);
